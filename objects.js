@@ -4,7 +4,7 @@
    
 const updatePlaylist = function(playlist, artistName, songTitle)  {
 // objects updatePlaylist(playlist, artistName, songTitle) adds the `artistName: songTitle` key-value pair to `playlist`:
-  playlist[artist].push( song)
+  playlist[artistName].push(songTitle)
 
   return playlist
 }
