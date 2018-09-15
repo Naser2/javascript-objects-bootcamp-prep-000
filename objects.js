@@ -2,12 +2,9 @@
  song: 'I wanna  love you '
  }
    
-const updatePlaylist(playlist, artistName, songTitle)  {
-  // Remember, because one of this function's arguments
-  // is `playlist`, the `playlist` _inside_ the function
-  // is not the same as the top-level `playlist` outside
-  // the function
-  playlist[artist] = song
+const updatePlaylist = function(playlist, artistName, songTitle)  {
+// objects updatePlaylist(playlist, artistName, songTitle) adds the `artistName: songTitle` key-value pair to `playlist`:
+  playlist[artist].push( song)
 
   return playlist
 }
