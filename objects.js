@@ -13,3 +13,4 @@ function removeFromPlaylist(playlist, artist) {
   delete playlist[artist]
 
   return playlist
+}
